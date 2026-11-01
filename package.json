@@ -1,0 +1,16 @@
+{
+  "name": "elmatadore-courier",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone 6b6t obsidian delivery bot: takes full obsidian shulker boxes from its owner's stash to the named builder bots.",
+  "main": "courier.js",
+  "scripts": {
+    "start": "node courier.js",
+    "test": "node test/words.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "mineflayer": "4.39.0",
+    "mineflayer-pathfinder": "2.4.5"
+  }
+}

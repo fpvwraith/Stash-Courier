@@ -1,0 +1,12 @@
+{
+  "username": "your-bot-account@example.com",
+  "auth": "microsoft",
+  "owner": "YourMainName",
+  "builders": ["builder_one", "builder_two", "builder_three", "builder_four", "builder_five"],
+  "items": ["obsidian", "crying_obsidian"],
+  "fullBoxesOnly": true,
+  "maxBoxesPerOrder": 10,
+  "maxBoxesPerHour": 80,
+  "supplyRadius": 4,
+  "returnBy": "kill"
+}
